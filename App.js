@@ -3,7 +3,6 @@ import React,{useState} from 'react';
 import Header from './components/header';
 import TodoItem from './components/todoitems';
 import AddTodo from './components/addtodo';
-import Sandbox from './components/sandbox';
 
 export default function App() {
 
@@ -36,7 +35,6 @@ export default function App() {
   }
 
   return (
-    //<Sandbox />
     <TouchableWithoutFeedback onPress={() => {
       Keyboard.dismiss();
       console.log('keyboard dismissed');
